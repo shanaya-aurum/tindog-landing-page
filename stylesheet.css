@@ -1,0 +1,173 @@
+body{
+    font-family: 'Merriweather, serif';
+    background-color: #F6F2D4;
+}
+
+#title, #first{
+    background-color: #95D1CC;
+    color: #F6F2D4 ;
+}
+
+.iphone-mockup{
+    width: 20%;
+    position: absolute;
+}
+
+h3, h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.container-fluid{
+    padding: 3% 15% ;
+}
+
+/* navbar */
+
+.navbar{
+    padding-bottom: 0%;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Merriweather, serif';
+}
+
+.nav-item{
+    padding: 0 18px 0 18px;
+}
+
+.nav-link{
+    font-family: 'Merriweather, serif';
+    font-size: 2rem;
+}
+
+/* buttons */
+
+.applebtn{
+    margin: 3% ;
+}
+
+.androidbtn{
+    margin: 3%;
+}
+
+/* features */
+
+#features{
+    text-align: center;
+    padding: 60px 60px;
+    position: relative;
+    background-color: #F6F2D4;
+}
+
+.whitebg{
+    padding-bottom: 0%;
+}
+
+.iconfeatures{
+    color: #5584AC;
+}
+
+.iconfeatures:hover{
+    color: #95D1CC;
+}
+
+.textfeatures{
+    padding: 5% 5%;
+}
+
+p{
+    color: gray;
+}
+
+/* Testimonials */
+
+#testimonials{
+    background-color: #5584AC ;
+    text-align: center;
+    color: #F6F2D4;
+}
+
+.carousel-item{
+    padding: 4% 16%;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.doggo {
+    border-radius: 100%;
+    width: 25%;
+    margin: 10px;
+}
+
+.pebbles{
+    color: #F6F2D4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#press{
+    background-color: #5584AC ;
+    text-align: center;
+    padding: 25px 25px 60px 25px;
+}
+
+.presslogo{
+    width: 15%;
+    margin: 0 25px ;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.cards123{
+    padding: 70px 20px 0 20px;
+}
+
+/* cta */
+
+.ctadiv{
+    background-color: #95D1CC;
+    color: #F6F2D4;
+    padding: 5% 20%;
+    text-align: center;
+}
+
+/* footer */
+
+#footer{
+    padding: 5% 20%;
+    text-align: center;
+}
+
+.footericon{
+    margin: 0px 20px 30px;
+}
+
+/* media queries */
+
+@media (max-width: 751px) {
+
+    .iphone-mockup{
+        position: static;
+        width: 50%;
+    }
+
+    #first{
+        text-align: center;
+    }
+
+}
